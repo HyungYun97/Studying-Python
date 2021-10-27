@@ -7,7 +7,7 @@ print("Hello")
 
 print()
 
-print("Hello","World")
+print("Hell","World")
 
 a=100
 b=200
