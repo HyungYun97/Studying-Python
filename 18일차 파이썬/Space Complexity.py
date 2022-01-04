@@ -26,9 +26,9 @@ print("정답 = s 현재 풀이 값 =", result("best of best sparta"))
 def find_max_occurred_alphabet(string):
 		alphabet_occurrence_list = [0] * 26 # -> 26 개의 공간을 사용합니다
 
-    for char in string:        # string 의 길이만큼 아래 연산이 실행
-        if not char.isalpha(): # 비교 연산 1번 실행
-            continue
+for char in string:        # string 의 길이만큼 아래 연산이 실행
+    if not char.isalpha(): # 비교 연산 1번 실행
+        continue
         arr_index = ord(char) - ord('a')         # 대입 연산 1번 실행 
         alphabet_occurrence_list[arr_index] += 1 # 대입 연산 1번 실행 
 
@@ -40,7 +40,7 @@ def find_max_occurred_alphabet(string):
             max_occurrence = alphabet_occurrence # 대입 연산 1번 실행 
             max_alphabet_index = index           # 대입 연산 1번 실행 
 
-    return chr(max_alphabet_index + ord('a'))
+    
 
 
 result = find_max_occurred_alphabet
