@@ -32,8 +32,8 @@ for char in string:        # string 의 길이만큼 아래 연산이 실행
         arr_index = ord(char) - ord('a')         # 대입 연산 1번 실행 
         alphabet_occurrence_list[arr_index] += 1 # 대입 연산 1번 실행 
 
-    max_occurrence = 0        # 대입 연산 1번 실행 
-    max_alphabet_index = 0    # 대입 연산 1번 실행 
+    max_occurrence = 0      # 대입 연산 1번 실행 
+    max_alphabet_index = 0  # 대입 연산 1번 실행 
     for index in range(len(alphabet_occurrence_list)):    # alphabet_array 의 길이(26)만큼 아래 연산이 실행
         alphabet_occurrence = alphabet_occurrence_list[index] # 대입 연산 1번 실행 
         if alphabet_occurrence > max_occurrence: # 비교 연산 1번 실행 
