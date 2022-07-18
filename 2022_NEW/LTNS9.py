@@ -1,6 +1,6 @@
 a = [] # 배열 생성
 for i in range(10): #for문으로 9개까지 입력 가능하도록 설정
-    b = int(input()) # inpub 받기
+    b = int(input()) # input 받기
     b = b % 42
     a.append(b) # input 되는 값을 a list 에 저장한다.
 
